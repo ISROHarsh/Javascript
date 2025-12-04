@@ -32,4 +32,17 @@ const myFunc = function(){
     
 }
 
-console.log(typeof heros);
+// console.log(typeof heros);
+
+
+// ++++++++++++++++++++++++++++++++++
+
+// Stack(primitive), Heap(Non-primitive)
+
+let myYoutubeName = "Verma"
+
+let anotherName = myYoutubeName
+anotherName = "Harsh"
+
+console.log(myYoutubeName);
+console.log(anotherName);
